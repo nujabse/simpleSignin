@@ -39,10 +39,10 @@ class TestSignin(unittest.TestCase):
         self.assertTrue(unicomapp.signin())
        
      def test_jd(self):
-            username = os.getenv('jd_username') or JDong['username']
-            password = os.getenv('jd_password') or JDong['password']
-            jd =JD(username, password)
-            self.assertTrue(jd.sign())
+        username = os.getenv('jd_username') or JDong['username']
+        password = os.getenv('jd_password') or JDong['password']
+        jd =JD(username, password)
+        self.assertTrue(jd.sign())
 
 
 if __name__ == "__main__":
