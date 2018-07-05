@@ -45,7 +45,7 @@ class UnicomApp(Base):
             'provinceChanel': 'general',
             'deviceModel': 'Custom Phone',
             'deviceBrand': 'unknown',
-            'appId': '939ba56777286cdba73455284fcbe8b808638e36c63d11c1609b3d308f48096a',
+            'appId': '255ffa36e52330754589feb73b04109953fbd0a7f72c1067d897db2a2ce24a7c',
             'pip': '',
             'pushPlatform': '',
             'platformToken': '',
